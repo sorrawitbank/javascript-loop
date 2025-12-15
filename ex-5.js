@@ -3,5 +3,5 @@ let companyName = "TechUp";
 
 // Start coding here
 for (const index in companyName) {
-  console.log(`Number ${index} character is ${companyName[index]}`);
+  console.log(`Number ${Number(index) + 1} character is ${companyName[index]}`);
 }
